@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html>
+    <head> 
+    
+
+    <meta charset="UTF-8"/>
+    <title>HOTEL FAZENDA CAMPO VERDE</title>
+
+<style>
+body{
+    margin-top:100px;
+    margin-left:100px;
+    margin-bottom:150px;
+    margin-right:100px;
+}
+h1 {
+
+    color:aliceblue; 
+    font-family: monospace;
+    font-size:36px;
+    
+}
+h2{
+    color:aliceblue;
+    font-size: 26px;
+    
+}
+h3 {<script>
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.slide');
+            if (index >= slides.length) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = slides.length - 1;
+            } else {
+                currentIndex = index;
+            }
+
+            const offset = -currentIndex * 100;
+            slides.forEach(slide => {
+                slide.style.transform = `translateX(${offset}%)`;
+            });
+        }
+
+        function changeSlide(direction) {
+            showSlide(currentIndex + direction);
+        }
+
+        // Initialize the slider
+        showSlide(currentIndex);
+    </script>
+    color:aliceblue;
+    font-size: 26px;
+   
+}
+h4 {
+    color:aliceblue;
+    font-size: 26px;
+ 
+}
+   
+a{ 
+    color:rgb(0, 156, 253);
+    
+}
+
+    
+h5 {
+    background-color: rgb(23, 29, 74);
+    color: aliceblue;
+    font-size: medium;
+    padding: 20px;
+    text-align: left;
+}
+
+.slider {
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .slides {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .slide {
+            min-width: 100%;
+            transition: transform 0.5s ease-in-out;
+        }
+
+
+</style>
+
+ </head>
+ <body style="background:rgb(157, 209, 222)">
+    <h1><center>HOTEL FAZENDA CAMPO VERDE</center></h1>
+    <h6> <center><img src="hotel.JPG" ></center> </h6>
+   
+         <p>
+        O hotel fazenda Campo Verde oferece as melhores acomodações e experiências, em meio à natureza,
+         para toda a família. Contando com uma área total de X hectares, possibilitando a prática de
+        diversas atividades ao ar livre: trilhas, cavalgada, pedalhinho, tirolesa, entre atrações.
+         <p>
+    <h2.1 style="color: rgb(245, 250, 255);font-size: medium;">Nossa História</h2.1>
+    <p>
+        A criação do Hotel Fazenda Campo Verde se iniciou com a vontade de criar um lugar onde as pessoas possam se afastar da agitação
+         da cidade  pudessem se reconectar com a natureza.Foi através da família Campo Verde e o apoio de todos
+         os membros desta que a contrução tomou lugar. Eles decidiram que o hotel 
+         preservaria o charme rústico da vida no campo, oferecendo conforto e hospitalidade, que continua sendo
+         o principal propósito até os dias atuais.
+    </p>
+
+     <h2>>Nossas acomodações</h2>
+     Oferecemos 3 opções de acomodação. Duas (suíte master e standart) estão localizadas no prédio principal, ou seja está localizada
+     no hotel em si. A outra, seria um chalé, que está localizado em outra parte da propriedade
+       <p> <a href="página.html"> Veja nossas acomodações</a>
+        </p>
+
+    <h3> >Alimentação</h3><p>
+    </p>
+        <p>
+        Café da manhâ e da tarde é incluso. Almoço e janta por quilo ou livre. <a href="cardápio.html"> Confira o cardápio</a> e  para 
+    mais informações entre em contato.       </p></ul>
+    </p>
+
+    <h4> >Atividades</h4>
+    <br>
+    <center>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="tirolesa.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="cavalo.webp" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="pedalinho.jpg" alt="Imagem 3">
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </center>
+</script>
+
+</li>
+        <li>Passeio a cavalo;</li>
+        <li>Pedalinho;</li>
+        <li>Pescaria;</li>
+        <li>Tirolesa;</li>
+        <li>Arvorismo;</li>
+        <li>Atividades recreativas com animais;</li>
+        <li>E muito mais.</li>
+    </ul> 
+<p>
+        <h5> <bold>Contato: </bold> <p></p>
+        <ul>
+        <li>email:hf.campoverde@gmail.com</li><p></p>
+        <li>Telefone:(41) 9 9293-0890</li><p></p>
+        <li>WhatsApp: (41) 9 4839-0648</li><p></p>
+        <li>Hotel Fazenda Campo Verde Rua das Flores, 473 Bairro da Serra, CEP 32645-778 Curitiba, Paraná, Brasil</il>
+    </ul>
+</h5>
+   
+            
+<script>
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelectorAll('.slide');
+        if (index >= slides.length) {
+            currentIndex = 0;
+        } else if (index < 0) {
+            currentIndex = slides.length - 1;
+        } else {
+            currentIndex = index;
+        }
+
+        const offset = -currentIndex * 100;
+        slides.forEach(slide => {
+            slide.style.transform = `translateX(${offset}%)`;
+        });
+    }
+
+    function changeSlide(direction) {
+        showSlide(currentIndex + direction);
+    }
+
+    // Initialize the slider
+    showSlide(currentIndex);
+</script>
+
+<nav class="navbar">
+    <style>.navbar {
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px; 
+    }
+    
+    .nav-links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-links li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .nav-links a:hover {
+        color: #ff9900;
+    }
+    </style>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="página.html">Quartos</a></li>
+        <li><a href="cardápio.html">Cardápio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</nav>
+</body>
+</html>
